@@ -91,4 +91,5 @@ class NotesDatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE
         db.delete(TABLE_NAME, whereClause, whereArgs)
         db.close()
     }
+    //changes
 }
